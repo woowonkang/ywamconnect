@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		516B43F71EA61B0700FA3CF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B43F61EA61B0700FA3CF7 /* AppDelegate.swift */; };
+		516B43F91EA61B0700FA3CF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B43F81EA61B0700FA3CF7 /* ViewController.swift */; };
+		516B43FC1EA61B0700FA3CF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516B43FA1EA61B0700FA3CF7 /* Main.storyboard */; };
+		516B43FE1EA61B0700FA3CF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516B43FD1EA61B0700FA3CF7 /* Assets.xcassets */; };
+		516B44011EA61B0700FA3CF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516B43FF1EA61B0700FA3CF7 /* LaunchScreen.storyboard */; };
+		516B440C1EA61B0700FA3CF7 /* ywamconnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B440B1EA61B0700FA3CF7 /* ywamconnectTests.swift */; };
+		516B44171EA61B0700FA3CF7 /* ywamconnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B44161EA61B0700FA3CF7 /* ywamconnectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		516B44081EA61B0700FA3CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516B43EB1EA61B0700FA3CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516B43F21EA61B0700FA3CF7;
+			remoteInfo = ywamconnect;
+		};
+		516B44131EA61B0700FA3CF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 516B43EB1EA61B0700FA3CF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 516B43F21EA61B0700FA3CF7;
+			remoteInfo = ywamconnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		516B43F31EA61B0700FA3CF7 /* ywamconnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ywamconnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		516B43F61EA61B0700FA3CF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		516B43F81EA61B0700FA3CF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		516B43FB1EA61B0700FA3CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		516B43FD1EA61B0700FA3CF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		516B44001EA61B0700FA3CF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		516B44021EA61B0700FA3CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516B44071EA61B0700FA3CF7 /* ywamconnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ywamconnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516B440B1EA61B0700FA3CF7 /* ywamconnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ywamconnectTests.swift; sourceTree = "<group>"; };
+		516B440D1EA61B0700FA3CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516B44121EA61B0700FA3CF7 /* ywamconnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ywamconnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		516B44161EA61B0700FA3CF7 /* ywamconnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ywamconnectUITests.swift; sourceTree = "<group>"; };
+		516B44181EA61B0700FA3CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		516B43F01EA61B0700FA3CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516B44041EA61B0700FA3CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516B440F1EA61B0700FA3CF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		516B43EA1EA61B0700FA3CF7 = {
+			isa = PBXGroup;
+			children = (
+				516B43F51EA61B0700FA3CF7 /* ywamconnect */,
+				516B440A1EA61B0700FA3CF7 /* ywamconnectTests */,
+				516B44151EA61B0700FA3CF7 /* ywamconnectUITests */,
+				516B43F41EA61B0700FA3CF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		516B43F41EA61B0700FA3CF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				516B43F31EA61B0700FA3CF7 /* ywamconnect.app */,
+				516B44071EA61B0700FA3CF7 /* ywamconnectTests.xctest */,
+				516B44121EA61B0700FA3CF7 /* ywamconnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		516B43F51EA61B0700FA3CF7 /* ywamconnect */ = {
+			isa = PBXGroup;
+			children = (
+				516B43F61EA61B0700FA3CF7 /* AppDelegate.swift */,
+				516B43F81EA61B0700FA3CF7 /* ViewController.swift */,
+				516B43FA1EA61B0700FA3CF7 /* Main.storyboard */,
+				516B43FD1EA61B0700FA3CF7 /* Assets.xcassets */,
+				516B43FF1EA61B0700FA3CF7 /* LaunchScreen.storyboard */,
+				516B44021EA61B0700FA3CF7 /* Info.plist */,
+			);
+			path = ywamconnect;
+			sourceTree = "<group>";
+		};
+		516B440A1EA61B0700FA3CF7 /* ywamconnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				516B440B1EA61B0700FA3CF7 /* ywamconnectTests.swift */,
+				516B440D1EA61B0700FA3CF7 /* Info.plist */,
+			);
+			path = ywamconnectTests;
+			sourceTree = "<group>";
+		};
+		516B44151EA61B0700FA3CF7 /* ywamconnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				516B44161EA61B0700FA3CF7 /* ywamconnectUITests.swift */,
+				516B44181EA61B0700FA3CF7 /* Info.plist */,
+			);
+			path = ywamconnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		516B43F21EA61B0700FA3CF7 /* ywamconnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516B441B1EA61B0700FA3CF7 /* Build configuration list for PBXNativeTarget "ywamconnect" */;
+			buildPhases = (
+				516B43EF1EA61B0700FA3CF7 /* Sources */,
+				516B43F01EA61B0700FA3CF7 /* Frameworks */,
+				516B43F11EA61B0700FA3CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ywamconnect;
+			productName = ywamconnect;
+			productReference = 516B43F31EA61B0700FA3CF7 /* ywamconnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		516B44061EA61B0700FA3CF7 /* ywamconnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516B441E1EA61B0700FA3CF7 /* Build configuration list for PBXNativeTarget "ywamconnectTests" */;
+			buildPhases = (
+				516B44031EA61B0700FA3CF7 /* Sources */,
+				516B44041EA61B0700FA3CF7 /* Frameworks */,
+				516B44051EA61B0700FA3CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516B44091EA61B0700FA3CF7 /* PBXTargetDependency */,
+			);
+			name = ywamconnectTests;
+			productName = ywamconnectTests;
+			productReference = 516B44071EA61B0700FA3CF7 /* ywamconnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		516B44111EA61B0700FA3CF7 /* ywamconnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 516B44211EA61B0700FA3CF7 /* Build configuration list for PBXNativeTarget "ywamconnectUITests" */;
+			buildPhases = (
+				516B440E1EA61B0700FA3CF7 /* Sources */,
+				516B440F1EA61B0700FA3CF7 /* Frameworks */,
+				516B44101EA61B0700FA3CF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				516B44141EA61B0700FA3CF7 /* PBXTargetDependency */,
+			);
+			name = ywamconnectUITests;
+			productName = ywamconnectUITests;
+			productReference = 516B44121EA61B0700FA3CF7 /* ywamconnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		516B43EB1EA61B0700FA3CF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Woowon Kang";
+				TargetAttributes = {
+					516B43F21EA61B0700FA3CF7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 89GCM243T3;
+						ProvisioningStyle = Automatic;
+					};
+					516B44061EA61B0700FA3CF7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 89GCM243T3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 516B43F21EA61B0700FA3CF7;
+					};
+					516B44111EA61B0700FA3CF7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 89GCM243T3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 516B43F21EA61B0700FA3CF7;
+					};
+				};
+			};
+			buildConfigurationList = 516B43EE1EA61B0700FA3CF7 /* Build configuration list for PBXProject "ywamconnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 516B43EA1EA61B0700FA3CF7;
+			productRefGroup = 516B43F41EA61B0700FA3CF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				516B43F21EA61B0700FA3CF7 /* ywamconnect */,
+				516B44061EA61B0700FA3CF7 /* ywamconnectTests */,
+				516B44111EA61B0700FA3CF7 /* ywamconnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		516B43F11EA61B0700FA3CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516B44011EA61B0700FA3CF7 /* LaunchScreen.storyboard in Resources */,
+				516B43FE1EA61B0700FA3CF7 /* Assets.xcassets in Resources */,
+				516B43FC1EA61B0700FA3CF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516B44051EA61B0700FA3CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516B44101EA61B0700FA3CF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		516B43EF1EA61B0700FA3CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516B43F91EA61B0700FA3CF7 /* ViewController.swift in Sources */,
+				516B43F71EA61B0700FA3CF7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516B44031EA61B0700FA3CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516B440C1EA61B0700FA3CF7 /* ywamconnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		516B440E1EA61B0700FA3CF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516B44171EA61B0700FA3CF7 /* ywamconnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		516B44091EA61B0700FA3CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516B43F21EA61B0700FA3CF7 /* ywamconnect */;
+			targetProxy = 516B44081EA61B0700FA3CF7 /* PBXContainerItemProxy */;
+		};
+		516B44141EA61B0700FA3CF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 516B43F21EA61B0700FA3CF7 /* ywamconnect */;
+			targetProxy = 516B44131EA61B0700FA3CF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		516B43FA1EA61B0700FA3CF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516B43FB1EA61B0700FA3CF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		516B43FF1EA61B0700FA3CF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				516B44001EA61B0700FA3CF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		516B44191EA61B0700FA3CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		516B441A1EA61B0700FA3CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		516B441C1EA61B0700FA3CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89GCM243T3;
+				INFOPLIST_FILE = ywamconnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = woowon.ywamconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		516B441D1EA61B0700FA3CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 89GCM243T3;
+				INFOPLIST_FILE = ywamconnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = woowon.ywamconnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		516B441F1EA61B0700FA3CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 89GCM243T3;
+				INFOPLIST_FILE = ywamconnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = woowon.ywamconnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ywamconnect.app/ywamconnect";
+			};
+			name = Debug;
+		};
+		516B44201EA61B0700FA3CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 89GCM243T3;
+				INFOPLIST_FILE = ywamconnectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = woowon.ywamconnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ywamconnect.app/ywamconnect";
+			};
+			name = Release;
+		};
+		516B44221EA61B0700FA3CF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 89GCM243T3;
+				INFOPLIST_FILE = ywamconnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = woowon.ywamconnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ywamconnect;
+			};
+			name = Debug;
+		};
+		516B44231EA61B0700FA3CF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 89GCM243T3;
+				INFOPLIST_FILE = ywamconnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = woowon.ywamconnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ywamconnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		516B43EE1EA61B0700FA3CF7 /* Build configuration list for PBXProject "ywamconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516B44191EA61B0700FA3CF7 /* Debug */,
+				516B441A1EA61B0700FA3CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		516B441B1EA61B0700FA3CF7 /* Build configuration list for PBXNativeTarget "ywamconnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516B441C1EA61B0700FA3CF7 /* Debug */,
+				516B441D1EA61B0700FA3CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		516B441E1EA61B0700FA3CF7 /* Build configuration list for PBXNativeTarget "ywamconnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516B441F1EA61B0700FA3CF7 /* Debug */,
+				516B44201EA61B0700FA3CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		516B44211EA61B0700FA3CF7 /* Build configuration list for PBXNativeTarget "ywamconnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				516B44221EA61B0700FA3CF7 /* Debug */,
+				516B44231EA61B0700FA3CF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 516B43EB1EA61B0700FA3CF7 /* Project object */;
+}
