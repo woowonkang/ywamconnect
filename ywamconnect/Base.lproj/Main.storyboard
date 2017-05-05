@@ -144,6 +144,108 @@
             </objects>
             <point key="canvasLocation" x="1068" y="-179.46026986506749"/>
         </scene>
+        <!--Schedule-->
+        <scene sceneID="8My-aA-BWj">
+            <objects>
+                <viewController id="GuI-un-dkZ" customClass="ScheduleViewController" customModule="ywamconnect" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="k1U-iO-hyt"/>
+                        <viewControllerLayoutGuide type="bottom" id="xKR-jk-G1v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZcU-Yx-ds8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xI8-V9-68c">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                                <color key="backgroundColor" red="0.2271622717" green="0.34465804700000002" blue="0.61270409820000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Te6-Aq-yq5">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="0.2271622717" green="0.34465804700000002" blue="0.61270409820000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Schedules" id="Ksv-Np-lcy"/>
+                                </items>
+                            </navigationBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="170" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YT4-bM-yEf">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="scheduleCell" rowHeight="170" id="2a6-mu-uz7" customClass="ScheduleCell" customModule="ywamconnect" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="170"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2a6-mu-uz7" id="hvo-hg-HCn">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="May 19, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5k-dw-Lkz">
+                                                    <rect key="frame" x="8" y="8" width="123" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wednesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dj8-mi-GNa">
+                                                    <rect key="frame" x="231" y="8" width="136" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="03:00 PM - 05:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="po5-H8-t7y">
+                                                    <rect key="frame" x="8" y="37" width="202" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Learning Center PE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yk1-KQ-kJG">
+                                                    <rect key="frame" x="8" y="66" width="359" height="50"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="activity" destination="yk1-KQ-kJG" id="7vZ-c3-zgn"/>
+                                            <outlet property="dateinfo" destination="F5k-dw-Lkz" id="jaZ-3X-Cqz"/>
+                                            <outlet property="daystring" destination="Dj8-mi-GNa" id="1wk-pU-FlR"/>
+                                            <outlet property="timeinfo" destination="po5-H8-t7y" id="jhE-f6-doA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="GuI-un-dkZ" id="74L-cX-4rz"/>
+                                    <outlet property="delegate" destination="GuI-un-dkZ" id="1VI-yp-WRn"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="xI8-V9-68c" secondAttribute="trailing" id="IYm-aN-vbG"/>
+                            <constraint firstItem="xI8-V9-68c" firstAttribute="leading" secondItem="ZcU-Yx-ds8" secondAttribute="leading" id="W9k-uW-5Jm"/>
+                            <constraint firstItem="xI8-V9-68c" firstAttribute="trailing" secondItem="Te6-Aq-yq5" secondAttribute="trailing" id="Ycj-rc-7pw"/>
+                            <constraint firstItem="Te6-Aq-yq5" firstAttribute="top" secondItem="k1U-iO-hyt" secondAttribute="bottom" id="Z6a-X3-kJp"/>
+                            <constraint firstItem="xI8-V9-68c" firstAttribute="top" secondItem="ZcU-Yx-ds8" secondAttribute="top" id="f7a-X7-2cg"/>
+                            <constraint firstItem="xI8-V9-68c" firstAttribute="leading" secondItem="Te6-Aq-yq5" secondAttribute="leading" id="gOQ-SH-s3U"/>
+                            <constraint firstItem="Te6-Aq-yq5" firstAttribute="top" secondItem="xI8-V9-68c" secondAttribute="bottom" id="jsE-ed-gN1"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Schedule" image="calendar50" id="zW8-O0-Ogi"/>
+                    <connections>
+                        <outlet property="scheduleView" destination="YT4-bM-yEf" id="O9o-WB-5Y6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FaG-6J-oWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-943.20000000000005" y="694.90254872563719"/>
+        </scene>
         <!--About-->
         <scene sceneID="zpp-qk-SBN">
             <objects>
@@ -189,7 +291,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XiG-2x-MgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="969" y="663"/>
+            <point key="canvasLocation" x="1329" y="493"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="9n9-mr-Q3K">
@@ -203,6 +305,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="mge-o4-GSo"/>
+                        <segue destination="GuI-un-dkZ" kind="relationship" relationship="viewControllers" id="sDJ-jx-CAo"/>
                         <segue destination="hAr-oC-IRU" kind="relationship" relationship="viewControllers" id="Wj6-Cq-JGv"/>
                     </connections>
                 </tabBarController>
@@ -214,6 +317,7 @@
     <resources>
         <image name="YWAMLogo" width="886" height="707"/>
         <image name="about25" width="25" height="25"/>
+        <image name="calendar50" width="25" height="25"/>
         <image name="food25" width="25" height="25"/>
     </resources>
 </document>

@@ -16,6 +16,8 @@
 		516B44171EA61B0700FA3CF7 /* ywamconnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B44161EA61B0700FA3CF7 /* ywamconnectUITests.swift */; };
 		516B44251EA6E51500FA3CF7 /* MealSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B44241EA6E51500FA3CF7 /* MealSchedule.swift */; };
 		516B44291EA70E2600FA3CF7 /* MealScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B44281EA70E2600FA3CF7 /* MealScheduleCell.swift */; };
+		516B446D1EB9F0A600FA3CF7 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B446C1EB9F0A600FA3CF7 /* ScheduleViewController.swift */; };
+		516B44711EBC7AB700FA3CF7 /* ScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516B44701EBC7AB700FA3CF7 /* ScheduleCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		516B44181EA61B0700FA3CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516B44241EA6E51500FA3CF7 /* MealSchedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealSchedule.swift; sourceTree = "<group>"; };
 		516B44281EA70E2600FA3CF7 /* MealScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealScheduleCell.swift; sourceTree = "<group>"; };
+		516B446C1EB9F0A600FA3CF7 /* ScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		516B44701EBC7AB700FA3CF7 /* ScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				516B44021EA61B0700FA3CF7 /* Info.plist */,
 				516B44241EA6E51500FA3CF7 /* MealSchedule.swift */,
 				516B44281EA70E2600FA3CF7 /* MealScheduleCell.swift */,
+				516B446C1EB9F0A600FA3CF7 /* ScheduleViewController.swift */,
+				516B44701EBC7AB700FA3CF7 /* ScheduleCell.swift */,
 			);
 			path = ywamconnect;
 			sourceTree = "<group>";
@@ -268,9 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516B446D1EB9F0A600FA3CF7 /* ScheduleViewController.swift in Sources */,
 				516B43F91EA61B0700FA3CF7 /* ViewController.swift in Sources */,
 				516B44291EA70E2600FA3CF7 /* MealScheduleCell.swift in Sources */,
 				516B44251EA6E51500FA3CF7 /* MealSchedule.swift in Sources */,
+				516B44711EBC7AB700FA3CF7 /* ScheduleCell.swift in Sources */,
 				516B43F71EA61B0700FA3CF7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
