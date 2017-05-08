@@ -15,7 +15,6 @@ class ScheduleCell: UITableViewCell {
     @IBOutlet weak var daystring: UILabel!
     @IBOutlet weak var dateinfo: UILabel!
     override func awakeFromNib() {
-        weak var daystring: UILabel!
         super.awakeFromNib()
         // Initialization code
     }
