@@ -133,7 +133,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="mk0-Wb-CeP" secondAttribute="trailing" constant="80" id="wBu-nu-Ka5"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Menu" image="food25" id="bXI-kf-hds"/>
+                    <tabBarItem key="tabBarItem" title="Menu" image="food50" id="bXI-kf-hds"/>
                     <connections>
                         <outlet property="labelDay" destination="mk0-Wb-CeP" id="vkE-YQ-tM9"/>
                         <outlet property="segmentedControl" destination="oe5-4Z-BYJ" id="9ba-Ei-h3O"/>
@@ -170,43 +170,43 @@
                                     <navigationItem title="Schedules" id="Ksv-Np-lcy"/>
                                 </items>
                             </navigationBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="170" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YT4-bM-yEf">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="113" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="YT4-bM-yEf">
+                                <rect key="frame" x="0.0" y="133" width="375" height="485"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="scheduleCell" rowHeight="170" id="2a6-mu-uz7" customClass="ScheduleCell" customModule="ywamconnect" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="170"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="scheduleCell" rowHeight="113" id="2a6-mu-uz7" customClass="ScheduleCell" customModule="ywamconnect" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="113"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2a6-mu-uz7" id="hvo-hg-HCn">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="170"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="113"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="May 19, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5k-dw-Lkz">
-                                                    <rect key="frame" x="8" y="8" width="123" height="21"/>
+                                                    <rect key="frame" x="8" y="8" width="123" height="19"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wednesday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dj8-mi-GNa">
-                                                    <rect key="frame" x="231" y="8" width="136" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wednesday" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dj8-mi-GNa">
+                                                    <rect key="frame" x="231" y="8" width="136" height="19"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="11"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="03:00 PM - 05:00 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="po5-H8-t7y">
-                                                    <rect key="frame" x="8" y="37" width="202" height="21"/>
+                                                    <rect key="frame" x="8" y="24" width="202" height="13"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Learning Center PE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yk1-KQ-kJG">
-                                                    <rect key="frame" x="8" y="66" width="359" height="50"/>
+                                                    <rect key="frame" x="13" y="40" width="349" height="53"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -225,6 +225,17 @@
                                     <outlet property="delegate" destination="GuI-un-dkZ" id="1VI-yp-WRn"/>
                                 </connections>
                             </tableView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jbS-yZ-Ufy">
+                                <rect key="frame" x="91" y="79" width="192" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="This week"/>
+                                    <segment title="Next week"/>
+                                </segments>
+                                <connections>
+                                    <action selector="weekSelected:" destination="GuI-un-dkZ" eventType="valueChanged" id="nFT-fh-bXS"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -240,6 +251,7 @@
                     <tabBarItem key="tabBarItem" title="Schedule" image="calendar50" id="zW8-O0-Ogi"/>
                     <connections>
                         <outlet property="scheduleView" destination="YT4-bM-yEf" id="O9o-WB-5Y6"/>
+                        <outlet property="weekSelector" destination="jbS-yZ-Ufy" id="UDw-Td-7d7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FaG-6J-oWg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -287,7 +299,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="About" image="about25" id="JZo-fY-NWH"/>
+                    <tabBarItem key="tabBarItem" title="About" image="about50" id="JZo-fY-NWH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XiG-2x-MgS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -316,8 +328,8 @@
     </scenes>
     <resources>
         <image name="YWAMLogo" width="886" height="707"/>
-        <image name="about25" width="25" height="25"/>
+        <image name="about50" width="25" height="25"/>
         <image name="calendar50" width="25" height="25"/>
-        <image name="food25" width="25" height="25"/>
+        <image name="food50" width="25" height="25"/>
     </resources>
 </document>

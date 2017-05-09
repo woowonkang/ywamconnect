@@ -10,17 +10,20 @@ import UIKit
 
 class ScheduleViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var scheduleView: UITableView!
+    @IBOutlet weak var weekSelector: UISegmentedControl!
     
     var schedules: [Schedule]? = []
+    var week = "thisweek"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        fetchSchedules()
+        
+        fetchSchedules(selectedWeek: week)
     }
     
-    func fetchSchedules(){
-        let urlRequest = URLRequest(url: URL(string:"https://ywamconnectkona.net/Main/API/calendar.cfc?method=getSchedule&DisplayType=Corporate")!)
+    func fetchSchedules(selectedWeek weektype: String){
+        let urlRequest = URLRequest(url: URL(string:"https://ywamconnectkona.net/Main/API/calendar.cfc?method=getSchedule&CalendarType=Corporate&weektype=\(weektype)")!)
         let task = URLSession.shared.dataTask(with: urlRequest){ (data, response, error) in
             
             if error != nil {
@@ -64,7 +67,7 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
         cell.timeinfo.text = self.schedules?[indexPath.item].timeinfo
         cell.activity.text = self.schedules?[indexPath.item].daytitle
         if (self.schedules?[indexPath.item].istoday)!{
-            cell.backgroundColor = UIColor(red: 221/255, green: 221/255, blue: 221/255, alpha: 1.0) /* #dddddd */
+            cell.backgroundColor = UIColor(red: 208/255, green: 219/255, blue: 242/255, alpha: 1.0) /* #d0dbf2 */
         } else {
             cell.backgroundColor = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0) /* #ffffff */
 
@@ -82,5 +85,18 @@ class ScheduleViewController: UIViewController, UITableViewDelegate, UITableView
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.schedules?.count ?? 0
     }
+    
+    @IBAction func weekSelected(_ sender: Any) {
+        switch weekSelector.selectedSegmentIndex {
+        case 0:
+            fetchSchedules(selectedWeek: "thisweek")
+        case 1:
+            fetchSchedules(selectedWeek: "nextweek")
+        default :
+            fetchSchedules(selectedWeek: "thisweek")
+        }
+    }
+    
+    
     
 }
